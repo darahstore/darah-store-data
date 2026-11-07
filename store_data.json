@@ -1,0 +1,293 @@
+{
+  "categories": [
+    {
+      "id": "games",
+      "name": "ألعاب",
+      "icon": "gamepad"
+    },
+    {
+      "id": "tools",
+      "name": "أدوات",
+      "icon": "tools"
+    },
+    {
+      "id": "social",
+      "name": "اجتماعي",
+      "icon": "chat"
+    },
+    {
+      "id": "education",
+      "name": "تعليمي",
+      "icon": "school"
+    }
+  ],
+  "apps": [
+    {
+      "id": "abqari",
+      "packageName": "com.darah.abqari",
+      "categoryId": "games",
+      "isGame": true,
+      "name": "تحدي العباقرة",
+      "description": "لعبة أسئلة وثقافة عامة تختبر معلوماتك وتتحدى أصدقاءك.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/abqari/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/abqari/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/abqari/shot2.png"
+      ],
+      "size": "15 MB",
+      "ageRating": "3+",
+      "versionCode": 1,
+      "sha256": "REPLACE_WITH_REAL_SHA256_OF_ABQARI_APK",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/abqari-v1/Abqari.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
+    {
+      "id": "darah_widgets",
+      "packageName": "com.darah.widgets",
+      "categoryId": "tools",
+      "isGame": false,
+      "name": "Darah Widgets",
+      "description": "أدوات متنوعة للشاشة الرئيسية بتصميم أنيق.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/darah_widgets/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/darah_widgets/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/darah_widgets/shot2.png"
+      ],
+      "size": "8.6 MB",
+      "ageRating": "3+",
+      "versionCode": 2,
+      "sha256": "REPLACE_WITH_REAL_SHA256_OF_DARAH_WIDGETS_APK",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": null,
+      "isPaid": true,
+      "originalPrice": 5.0,
+      "currentPrice": 2.0,
+      "isOnSale": true,
+      "saleEndDate": "2027-02-07T23:59:59Z",
+      "paymentLink": "https://paypal.me/RiyadDarah/2.00"
+    },
+    {
+      "id": "demo_puzzle",
+      "packageName": "com.darah.demo1",
+      "categoryId": "games",
+      "isGame": true,
+      "name": "لعبة الألغاز (تجريبي)",
+      "description": "لعبة ألغاز ذكية لتنشيط العقل.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_puzzle/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_puzzle/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_puzzle/shot2.png"
+      ],
+      "size": "22 MB",
+      "ageRating": "3+",
+      "versionCode": 1,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_PUZZLE",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/demo_puzzle-v1/demo_puzzle.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
+    {
+      "id": "demo_racing",
+      "packageName": "com.darah.demo2",
+      "categoryId": "games",
+      "isGame": true,
+      "name": "سباق السرعة (تجريبي)",
+      "description": "سباق سيارات مثير بمراحل متعددة.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_racing/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_racing/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_racing/shot2.png"
+      ],
+      "size": "48 MB",
+      "ageRating": "7+",
+      "versionCode": 1,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_RACING",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/demo_racing-v1/demo_racing.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
+    {
+      "id": "demo_adventure",
+      "packageName": "com.darah.demo3",
+      "categoryId": "games",
+      "isGame": true,
+      "name": "مغامرة الكنز (تجريبي)",
+      "description": "لعبة مغامرات مدفوعة بقصة مشوقة.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_adventure/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_adventure/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_adventure/shot2.png"
+      ],
+      "size": "120 MB",
+      "ageRating": "12+",
+      "versionCode": 3,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_ADVENTURE",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": null,
+      "isPaid": true,
+      "originalPrice": 4.0,
+      "currentPrice": 4.0,
+      "isOnSale": false,
+      "paymentLink": "https://paypal.me/RiyadDarah/4.00"
+    },
+    {
+      "id": "demo_cards",
+      "packageName": "com.darah.demo4",
+      "categoryId": "games",
+      "isGame": true,
+      "name": "ورق الشدة (تجريبي)",
+      "description": "العب الورق مع الأصدقاء أو ضد الجهاز.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_cards/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_cards/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_cards/shot2.png"
+      ],
+      "size": "18 MB",
+      "ageRating": "3+",
+      "versionCode": 2,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_CARDS",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/demo_cards-v2/demo_cards.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
+    {
+      "id": "demo_notes",
+      "packageName": "com.darah.demo5",
+      "categoryId": "tools",
+      "isGame": false,
+      "name": "المفكرة الذكية (تجريبي)",
+      "description": "دوّن ملاحظاتك بسهولة.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_notes/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_notes/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_notes/shot2.png"
+      ],
+      "size": "6 MB",
+      "ageRating": "3+",
+      "versionCode": 4,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_NOTES",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/demo_notes-v4/demo_notes.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
+    {
+      "id": "demo_calc",
+      "packageName": "com.darah.demo6",
+      "categoryId": "tools",
+      "isGame": false,
+      "name": "الحاسبة المتقدمة (تجريبي)",
+      "description": "حاسبة علمية مدفوعة، تخفيضها منتهٍ لاختبار انتهاء المؤقت.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_calc/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_calc/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_calc/shot2.png"
+      ],
+      "size": "5 MB",
+      "ageRating": "3+",
+      "versionCode": 1,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_CALC",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": null,
+      "isPaid": true,
+      "originalPrice": 3.0,
+      "currentPrice": 1.5,
+      "isOnSale": true,
+      "saleEndDate": "2026-10-01T23:59:59Z",
+      "paymentLink": "https://paypal.me/RiyadDarah/1.50"
+    },
+    {
+      "id": "demo_photo",
+      "packageName": "com.darah.demo7",
+      "categoryId": "tools",
+      "isGame": false,
+      "name": "محرر الصور (تجريبي)",
+      "description": "محرر صور مدفوع بتخفيض جارٍ.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_photo/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_photo/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_photo/shot2.png"
+      ],
+      "size": "35 MB",
+      "ageRating": "3+",
+      "versionCode": 5,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_PHOTO",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": null,
+      "isPaid": true,
+      "originalPrice": 6.0,
+      "currentPrice": 3.0,
+      "isOnSale": true,
+      "saleEndDate": "2027-01-15T23:59:59Z",
+      "paymentLink": "https://paypal.me/RiyadDarah/3.00"
+    },
+    {
+      "id": "demo_chat",
+      "packageName": "com.darah.demo8",
+      "categoryId": "social",
+      "isGame": false,
+      "name": "دردشة (تجريبي)",
+      "description": "تطبيق محادثة بسيط.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_chat/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_chat/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_chat/shot2.png"
+      ],
+      "size": "25 MB",
+      "ageRating": "12+",
+      "versionCode": 2,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_CHAT",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/demo_chat-v2/demo_chat.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
+    {
+      "id": "demo_share",
+      "packageName": "com.darah.demo9",
+      "categoryId": "social",
+      "isGame": false,
+      "name": "مشاركة (تجريبي)",
+      "description": "شارك صورك مع أصدقائك.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_share/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_share/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_share/shot2.png"
+      ],
+      "size": "30 MB",
+      "ageRating": "16+",
+      "versionCode": 1,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_SHARE",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/demo_share-v1/demo_share.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
+    {
+      "id": "demo_learn",
+      "packageName": "com.darah.demo10",
+      "categoryId": "education",
+      "isGame": false,
+      "name": "تعلّم الإنجليزية (تجريبي)",
+      "description": "دروس لتعلم اللغة الإنجليزية.",
+      "iconUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_learn/icon.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_learn/shot1.png",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/darah-store-data/main/images/demo_learn/shot2.png"
+      ],
+      "size": "40 MB",
+      "ageRating": "3+",
+      "versionCode": 3,
+      "sha256": "FAKE_SHA256_FOR_TESTING_DEMO_LEARN",
+      "repo": "YOUR_USERNAME/darah-store-data",
+      "downloadUrl": "https://github.com/YOUR_USERNAME/darah-store-data/releases/download/demo_learn-v3/demo_learn.apk",
+      "isPaid": false,
+      "isOnSale": false
+    }
+  ]
+    }
