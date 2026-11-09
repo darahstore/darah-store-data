@@ -23,25 +23,25 @@
   ],
   "apps": [
      {
-  "id": "noor_al_islam",
-  "packageName": "com.noor.islam",
-  "categoryId": "islamic",
-  "isGame": false,
-  "name": "نور الإسلام",
-  "description": "تطبيق إسلامي شامل يحتوي على المصحف، الأذكار، قصص الأنبياء، و1000 معلومة دينية.",
-  "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/noor_al_islam/icon.png",
-  "screenshots": [
+      "id": "noor_al_islam",
+      "packageName": "com.noor.islam",
+      "categoryId": "islamic",
+      "isGame": false,
+      "name": "نور الإسلام",
+      "description": "تطبيق إسلامي شامل يحتوي على المصحف، الأذكار، قصص الأنبياء، و1000 معلومة دينية.",
+      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/noor_al_islam/icon.png",
+      "screenshots": [
     "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/noor_al_islam/shot1.png"
   ],
-  "size": "13 MB",
-  "ageRating": "3+",
-  "versionCode": 381,
-  "sha256": "ضع_هنا_بصمة_الملف_إن_أردت",
-  "repo": "darahstore/Allah",
-  "downloadUrl": "https://github.com/darahstore/Allah/releases/download/v1.0.0/NoorAlIslam-v1.0.0-build381.apk",
-  "isPaid": false,
-  "isOnSale": false
-},
+      "size": "13 MB",
+      "ageRating": "3+",
+      "versionCode": 381,
+      "sha256": "ضع_هنا_بصمة_الملف_إن_أردت",
+      "repo": "darahstore/Allah",
+      "downloadUrl": "https://github.com/darahstore/Allah/releases/download/v1.0.0/NoorAlIslam-v1.0.0-build381.apk",
+      "isPaid": false,
+      "isOnSale": false
+    },
     {
       "id": "abqari",
       "packageName": "com.darah.abqari",
