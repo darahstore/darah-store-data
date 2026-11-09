@@ -1,284 +1,28 @@
 {
   "categories": [
     {
-      "id": "action",
-      "name": {
-        "ar": "الحركة", "en": "Action", "fr": "Action", "es": "Acción", "de": "Action",
-        "it": "Azione", "pt": "Ação", "ru": "Экшен", "zh": "动作", "ja": "アクション",
-        "ko": "액션", "tr": "Aksiyon", "fa": "اکشن", "ur": "ایکشن", "hi": "एक्शन",
-        "bn": "অ্যাকশন", "id": "Aksi", "ms": "Aksi", "th": "แอ็กชัน", "vi": "Hành động",
-        "nl": "Actie", "pl": "Akcja", "uk": "Екшн", "ro": "Acțiune", "cs": "Akční",
-        "sv": "Action", "da": "Action", "fi": "Toiminta", "no": "Action", "el": "Δράση"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/action.png"
+      "id": "games",
+      "name": "ألعاب",
+      "icon": "gamepad"
     },
     {
-      "id": "simulation",
-      "name": {
-        "ar": "المحاكاة", "en": "Simulation", "fr": "Simulation", "es": "Simulación", "de": "Simulation",
-        "it": "Simulazione", "pt": "Simulação", "ru": "Симуляторы", "zh": "模拟", "ja": "シミュレーション",
-        "ko": "시뮬레이션", "tr": "Simülasyon", "fa": "شبیه‌سازی", "ur": "سمولیشن", "hi": "सिमुलेशन",
-        "bn": "সিমুলেশন", "id": "Simulasi", "ms": "Simulasi", "th": "จำลองสถานการณ์", "vi": "Mô phỏng",
-        "nl": "Simulatie", "pl": "Symulacje", "uk": "Симулятори", "ro": "Simulare", "cs": "Simulace",
-        "sv": "Simulering", "da": "Simulation", "fi": "Simulaatio", "no": "Simulering", "el": "Προσομοίωση"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/simulation.png"
-    },
-    {
-      "id": "adventure",
-      "name": {
-        "ar": "المغامرات", "en": "Adventure", "fr": "Aventure", "es": "Aventura", "de": "Abenteuer",
-        "it": "Avventura", "pt": "Aventura", "ru": "Приключения", "zh": "冒险", "ja": "アドベンチャー",
-        "ko": "어드벤처", "tr": "Macera", "fa": "ماجراجویی", "ur": "ایڈونچر", "hi": "एडवेंचर",
-        "bn": "অ্যাডভেঞ্চার", "id": "Petualangan", "ms": "Pengembaraan", "th": "ผจญภัย", "vi": "Phiêu lưu",
-        "nl": "Avontuur", "pl": "Przygodowe", "uk": "Пригоди", "ro": "Aventură", "cs": "Dobrodružné",
-        "sv": "Äventyr", "da": "Eventyr", "fi": "Seikkailu", "no": "Eventyr", "el": "Περιπέτεια"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/adventure.png"
-    },
-    {
-      "id": "puzzle",
-      "name": {
-        "ar": "ألغاز", "en": "Puzzle", "fr": "Puzzle", "es": "Puzles", "de": "Puzzle",
-        "it": "Puzzle", "pt": "Quebra-cabeça", "ru": "Головоломки", "zh": "益智", "ja": "パズル",
-        "ko": "퍼즐", "tr": "Bulmaca", "fa": "پازل", "ur": "پہیلیاں", "hi": "पहेली",
-        "bn": "ধাঁধা", "id": "Teka-teki", "ms": "Teka-teki", "th": "ปริศนา", "vi": "Giải đố",
-        "nl": "Puzzel", "pl": "Logiczne", "uk": "Головоломки", "ro": "Puzzle", "cs": "Logické",
-        "sv": "Pussel", "da": "Puslespil", "fi": "Pulmapelit", "no": "Puslespill", "el": "Παζλ"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/puzzle.png"
-    },
-    {
-      "id": "role_playing",
-      "name": {
-        "ar": "تقمص الأدوار", "en": "Role Playing", "fr": "Jeu de rôle", "es": "Rol", "de": "Rollenspiel",
-        "it": "Gioco di ruolo", "pt": "RPG", "ru": "Ролевые", "zh": "角色扮演", "ja": "ロールプレイング",
-        "ko": "롤플레잉", "tr": "Rol Yapma", "fa": "نقش‌آفرینی", "ur": "رول پلےنگ", "hi": "रोल प्लेइंग",
-        "bn": "রোল প্লেয়িং", "id": "Role Playing", "ms": "Main Peranan", "th": "สวมบทบาท", "vi": "Nhập vai",
-        "nl": "Rollenspel", "pl": "RPG", "uk": "Рольові", "ro": "Joc de rol", "cs": "Hraní rolí",
-        "sv": "Rollspel", "da": "Rollespil", "fi": "Roolipeli", "no": "Rollespill", "el": "Παιχνίδια ρόλων"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/role_playing.png"
-    },
-    {
-      "id": "racing",
-      "name": {
-        "ar": "سباق", "en": "Racing", "fr": "Course", "es": "Carreras", "de": "Rennen",
-        "it": "Corse", "pt": "Corrida", "ru": "Гонки", "zh": "赛车", "ja": "レーシング",
-        "ko": "레이싱", "tr": "Yarış", "fa": "مسابقه‌ای", "ur": "ریسنگ", "hi": "रेसिंग",
-        "bn": "রেসিং", "id": "Balapan", "ms": "Perlumbaan", "th": "แข่งรถ", "vi": "Đua xe",
-        "nl": "Racen", "pl": "Wyścigi", "uk": "Перегони", "ro": "Curse", "cs": "Závodní",
-        "sv": "Racing", "da": "Racerspil", "fi": "Kilpa-ajo", "no": "Racing", "el": "Αγώνες"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/racing.png"
-    },
-    {
-      "id": "sports",
-      "name": {
-        "ar": "رياضة", "en": "Sports", "fr": "Sport", "es": "Deportes", "de": "Sport",
-        "it": "Sport", "pt": "Esportes", "ru": "Спорт", "zh": "体育", "ja": "スポーツ",
-        "ko": "스포츠", "tr": "Spor", "fa": "ورزشی", "ur": "کھیل", "hi": "खेल",
-        "bn": "ক্রীড়া", "id": "Olahraga", "ms": "Sukan", "th": "กีฬา", "vi": "Thể thao",
-        "nl": "Sport", "pl": "Sportowe", "uk": "Спорт", "ro": "Sport", "cs": "Sportovní",
-        "sv": "Sport", "da": "Sport", "fi": "Urheilu", "no": "Sport", "el": "Αθλητικά"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/sports.png"
-    },
-    {
-      "id": "strategy",
-      "name": {
-        "ar": "استراتيجية", "en": "Strategy", "fr": "Stratégie", "es": "Estrategia", "de": "Strategie",
-        "it": "Strategia", "pt": "Estratégia", "ru": "Стратегии", "zh": "策略", "ja": "ストラテジー",
-        "ko": "전략", "tr": "Strateji", "fa": "استراتژی", "ur": "حکمتِ عملی", "hi": "रणनीति",
-        "bn": "কৌশল", "id": "Strategi", "ms": "Strategi", "th": "วางแผนกลยุทธ์", "vi": "Chiến thuật",
-        "nl": "Strategie", "pl": "Strategiczne", "uk": "Стратегії", "ro": "Strategie", "cs": "Strategické",
-        "sv": "Strategi", "da": "Strategi", "fi": "Strategia", "no": "Strategi", "el": "Στρατηγική"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/strategy.png"
-    },
-    {
-      "id": "board",
-      "name": {
-        "ar": "لوحية", "en": "Board", "fr": "Jeux de société", "es": "Juegos de mesa", "de": "Brettspiele",
-        "it": "Giochi da tavolo", "pt": "Tabuleiro", "ru": "Настольные", "zh": "棋盘", "ja": "ボード",
-        "ko": "보드", "tr": "Masa Oyunları", "fa": "رومیزی", "ur": "بورڈ گیمز", "hi": "बोर्ड",
-        "bn": "বোর্ড", "id": "Papan", "ms": "Papan", "th": "บอร์ดเกม", "vi": "Cờ bàn",
-        "nl": "Bordspellen", "pl": "Planszowe", "uk": "Настільні", "ro": "Jocuri de societate", "cs": "Desková",
-        "sv": "Brädspel", "da": "Brætspil", "fi": "Lautapelit", "no": "Brettspill", "el": "Επιτραπέζια"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/board.png"
-    },
-    {
-      "id": "card",
-      "name": {
-        "ar": "الورق", "en": "Card", "fr": "Cartes", "es": "Cartas", "de": "Karten",
-        "it": "Carte", "pt": "Cartas", "ru": "Карточные", "zh": "卡牌", "ja": "カード",
-        "ko": "카드", "tr": "Kart", "fa": "کارتی", "ur": "تاش", "hi": "कार्ड",
-        "bn": "কার্ড", "id": "Kartu", "ms": "Kad", "th": "ไพ่", "vi": "Bài",
-        "nl": "Kaartspellen", "pl": "Karciane", "uk": "Карткові", "ro": "Cărți", "cs": "Karetní",
-        "sv": "Kortspel", "da": "Kortspil", "fi": "Korttipelit", "no": "Kortspill", "el": "Χαρτιά"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/card.png"
+      "id": "tools",
+      "name": "أدوات",
+      "icon": "tools"
     },
     {
       "id": "social",
-      "name": {
-        "ar": "اجتماعي", "en": "Social", "fr": "Social", "es": "Social", "de": "Soziales",
-        "it": "Social", "pt": "Social", "ru": "Социальные", "zh": "社交", "ja": "ソーシャル",
-        "ko": "소셜", "tr": "Sosyal", "fa": "اجتماعی", "ur": "سوشل", "hi": "सोशल",
-        "bn": "সোশ্যাল", "id": "Sosial", "ms": "Sosial", "th": "โซเชียล", "vi": "Mạng xã hội",
-        "nl": "Sociaal", "pl": "Społecznościowe", "uk": "Соцмережі", "ro": "Social", "cs": "Sociální",
-        "sv": "Socialt", "da": "Socialt", "fi": "Sosiaalinen", "no": "Sosialt", "el": "Κοινωνικά"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/social.png"
-    },
-    {
-      "id": "entertainment",
-      "name": {
-        "ar": "ترفيه", "en": "Entertainment", "fr": "Divertissement", "es": "Entretenimiento", "de": "Unterhaltung",
-        "it": "Intrattenimento", "pt": "Entretenimento", "ru": "Развлечения", "zh": "娱乐", "ja": "エンタメ",
-        "ko": "엔터테인먼트", "tr": "Eğlence", "fa": "سرگرمی", "ur": "تفریح", "hi": "मनोरंजन",
-        "bn": "বিনোদন", "id": "Hiburan", "ms": "Hiburan", "th": "บันเทิง", "vi": "Giải trí",
-        "nl": "Entertainment", "pl": "Rozrywka", "uk": "Розваги", "ro": "Divertisment", "cs": "Zábava",
-        "sv": "Underhållning", "da": "Underholdning", "fi": "Viihde", "no": "Underholdning", "el": "Ψυχαγωγία"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/entertainment.png"
-    },
-    {
-      "id": "communication",
-      "name": {
-        "ar": "الاتصال", "en": "Communication", "fr": "Communication", "es": "Comunicación", "de": "Kommunikation",
-        "it": "Comunicazione", "pt": "Comunicação", "ru": "Связь", "zh": "通讯", "ja": "コミュニケーション",
-        "ko": "커뮤니케이션", "tr": "İletişim", "fa": "ارتباطات", "ur": "مواصلات", "hi": "संचार",
-        "bn": "যোগাযোগ", "id": "Komunikasi", "ms": "Komunikasi", "th": "การสื่อสาร", "vi": "Liên lạc",
-        "nl": "Communicatie", "pl": "Komunikacja", "uk": "Зв'язок", "ro": "Comunicare", "cs": "Komunikace",
-        "sv": "Kommunikation", "da": "Kommunikation", "fi": "Viestintä", "no": "Kommunikasjon", "el": "Επικοινωνία"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/communication.png"
-    },
-    {
-      "id": "productivity",
-      "name": {
-        "ar": "الإنتاجية", "en": "Productivity", "fr": "Productivité", "es": "Productividad", "de": "Produktivität",
-        "it": "Produttività", "pt": "Produtividade", "ru": "Продуктивность", "zh": "效率", "ja": "仕事効率化",
-        "ko": "생산성", "tr": "Üretkenlik", "fa": "بهره‌وری", "ur": "پیداواریت", "hi": "उत्पादकता",
-        "bn": "উৎপাদনশীলতা", "id": "Produktivitas", "ms": "Produktiviti", "th": "ประสิทธิภาพ", "vi": "Năng suất",
-        "nl": "Productiviteit", "pl": "Produktywność", "uk": "Продуктивність", "ro": "Productivitate", "cs": "Produktivita",
-        "sv": "Produktivitet", "da": "Produktivitet", "fi": "Tuottavuus", "no": "Produktivitet", "el": "Παραγωγικότητα"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/productivity.png"
-    },
-    {
-      "id": "photography",
-      "name": {
-        "ar": "الصور الفوتوغرافية", "en": "Photography", "fr": "Photographie", "es": "Fotografía", "de": "Fotografie",
-        "it": "Fotografia", "pt": "Fotografia", "ru": "Фотография", "zh": "摄影", "ja": "写真",
-        "ko": "사진", "tr": "Fotoğrafçılık", "fa": "عکاسی", "ur": "فوٹوگرافی", "hi": "फ़ोटोग्राफ़ी",
-        "bn": "ফটোগ্রাফি", "id": "Fotografi", "ms": "Fotografi", "th": "การถ่ายภาพ", "vi": "Nhiếp ảnh",
-        "nl": "Fotografie", "pl": "Fotografia", "uk": "Фотографія", "ro": "Fotografie", "cs": "Fotografie",
-        "sv": "Fotografering", "da": "Fotografering", "fi": "Valokuvaus", "no": "Fotografering", "el": "Φωτογραφία"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/photography.png"
-    },
-    {
-      "id": "music_audio",
-      "name": {
-        "ar": "الموسيقى والصوت", "en": "Music & Audio", "fr": "Musique et audio", "es": "Música y audio", "de": "Musik & Audio",
-        "it": "Musica e audio", "pt": "Música e áudio", "ru": "Музыка и аудио", "zh": "音乐和音频", "ja": "音楽＆オーディオ",
-        "ko": "음악 및 오디오", "tr": "Müzik ve Ses", "fa": "موسیقی و صدا", "ur": "موسیقی اور آڈیو", "hi": "संगीत और ऑडियो",
-        "bn": "সংগীত ও অডিও", "id": "Musik & Audio", "ms": "Muzik & Audio", "th": "เพลงและเสียง", "vi": "Âm nhạc & Âm thanh",
-        "nl": "Muziek en audio", "pl": "Muzyka i audio", "uk": "Музика й аудіо", "ro": "Muzică și audio", "cs": "Hudba a zvuk",
-        "sv": "Musik och ljud", "da": "Musik og lyd", "fi": "Musiikki ja ääni", "no": "Musikk og lyd", "el": "Μουσική και ήχος"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/music_audio.png"
+      "name": "اجتماعي",
+      "icon": "chat"
     },
     {
       "id": "education",
-      "name": {
-        "ar": "التعليم", "en": "Education", "fr": "Éducation", "es": "Educación", "de": "Bildung",
-        "it": "Istruzione", "pt": "Educação", "ru": "Образование", "zh": "教育", "ja": "教育",
-        "ko": "교육", "tr": "Eğitim", "fa": "آموزش", "ur": "تعلیم", "hi": "शिक्षा",
-        "bn": "শিক্ষা", "id": "Pendidikan", "ms": "Pendidikan", "th": "การศึกษา", "vi": "Giáo dục",
-        "nl": "Onderwijs", "pl": "Edukacja", "uk": "Освіта", "ro": "Educație", "cs": "Vzdělávání",
-        "sv": "Utbildning", "da": "Uddannelse", "fi": "Koulutus", "no": "Utdanning", "el": "Εκπαίδευση"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/education.png"
-    },
-    {
-      "id": "shopping",
-      "name": {
-        "ar": "تسوق", "en": "Shopping", "fr": "Shopping", "es": "Compras", "de": "Shopping",
-        "it": "Shopping", "pt": "Compras", "ru": "Покупки", "zh": "购物", "ja": "ショッピング",
-        "ko": "쇼핑", "tr": "Alışveriş", "fa": "خرید", "ur": "خریداری", "hi": "शॉपिंग",
-        "bn": "কেনাকাটা", "id": "Belanja", "ms": "Beli-belah", "th": "ช้อปปิ้ง", "vi": "Mua sắm",
-        "nl": "Winkelen", "pl": "Zakupy", "uk": "Покупки", "ro": "Cumpărături", "cs": "Nakupování",
-        "sv": "Shopping", "da": "Shopping", "fi": "Ostokset", "no": "Shopping", "el": "Αγορές"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/shopping.png"
-    },
-    {
-      "id": "art_design",
-      "name": {
-        "ar": "فن وتصميم", "en": "Art & Design", "fr": "Art et design", "es": "Arte y diseño", "de": "Kunst & Design",
-        "it": "Arte e design", "pt": "Arte e design", "ru": "Искусство и дизайн", "zh": "艺术与设计", "ja": "アート＆デザイン",
-        "ko": "예술 및 디자인", "tr": "Sanat ve Tasarım", "fa": "هنر و طراحی", "ur": "فن اور ڈیزائن", "hi": "कला और डिज़ाइन",
-        "bn": "শিল্প ও ডিজাইন", "id": "Seni & Desain", "ms": "Seni & Reka Bentuk", "th": "ศิลปะและการออกแบบ", "vi": "Nghệ thuật & Thiết kế",
-        "nl": "Kunst en ontwerp", "pl": "Sztuka i projektowanie", "uk": "Мистецтво й дизайн", "ro": "Artă și design", "cs": "Umění a design",
-        "sv": "Konst och design", "da": "Kunst og design", "fi": "Taide ja suunnittelu", "no": "Kunst og design", "el": "Τέχνη και σχεδίαση"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/art_design.png"
-    },
-    {
-      "id": "personalization",
-      "name": {
-        "ar": "تخصيص", "en": "Personalization", "fr": "Personnalisation", "es": "Personalización", "de": "Personalisierung",
-        "it": "Personalizzazione", "pt": "Personalização", "ru": "Персонализация", "zh": "个性化", "ja": "パーソナライズ",
-        "ko": "개인 설정", "tr": "Kişiselleştirme", "fa": "شخصی‌سازی", "ur": "حسبِ ضرورت", "hi": "वैयक्तिकरण",
-        "bn": "ব্যক্তিগতকরণ", "id": "Personalisasi", "ms": "Pemperibadian", "th": "ปรับแต่ง", "vi": "Cá nhân hóa",
-        "nl": "Personalisatie", "pl": "Personalizacja", "uk": "Персоналізація", "ro": "Personalizare", "cs": "Přizpůsobení",
-        "sv": "Anpassning", "da": "Tilpasning", "fi": "Personointi", "no": "Tilpasning", "el": "Εξατομίκευση"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/personalization.png"
-    },
-    {
-      "id": "beauty",
-      "name": {
-        "ar": "الجمال", "en": "Beauty", "fr": "Beauté", "es": "Belleza", "de": "Beauty",
-        "it": "Bellezza", "pt": "Beleza", "ru": "Красота", "zh": "美容", "ja": "美容",
-        "ko": "뷰티", "tr": "Güzellik", "fa": "زیبایی", "ur": "خوبصورتی", "hi": "सौंदर्य",
-        "bn": "সৌন্দর্য", "id": "Kecantikan", "ms": "Kecantikan", "th": "ความงาม", "vi": "Làm đẹp",
-        "nl": "Schoonheid", "pl": "Uroda", "uk": "Краса", "ro": "Frumusețe", "cs": "Krása",
-        "sv": "Skönhet", "da": "Skønhed", "fi": "Kauneus", "no": "Skjønnhet", "el": "Ομορφιά"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/beauty.png"
-    },
-    {
-      "id": "weather",
-      "name": {
-        "ar": "الطقس", "en": "Weather", "fr": "Météo", "es": "El tiempo", "de": "Wetter",
-        "it": "Meteo", "pt": "Clima", "ru": "Погода", "zh": "天气", "ja": "天気",
-        "ko": "날씨", "tr": "Hava Durumu", "fa": "آب‌وهوا", "ur": "موسم", "hi": "मौसम",
-        "bn": "আবহাওয়া", "id": "Cuaca", "ms": "Cuaca", "th": "สภาพอากาศ", "vi": "Thời tiết",
-        "nl": "Weer", "pl": "Pogoda", "uk": "Погода", "ro": "Vreme", "cs": "Počasí",
-        "sv": "Väder", "da": "Vejr", "fi": "Sää", "no": "Vær", "el": "Καιρός"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/weather.png"
-    },
-    {
-      "id": "islamic",
-      "name": {
-        "ar": "إسلاميات", "en": "Islamic", "fr": "Islam", "es": "Islámico", "de": "Islamisch",
-        "it": "Islamico", "pt": "Islâmico", "ru": "Исламские", "zh": "伊斯兰", "ja": "イスラム",
-        "ko": "이슬람", "tr": "İslami", "fa": "اسلامی", "ur": "اسلامی", "hi": "इस्लामी",
-        "bn": "ইসলামিক", "id": "Islami", "ms": "Islamik", "th": "อิสลาม", "vi": "Hồi giáo",
-        "nl": "Islamitisch", "pl": "Islamskie", "uk": "Ісламські", "ro": "Islamice", "cs": "Islámské",
-        "sv": "Islamiskt", "da": "Islamisk", "fi": "Islamilainen", "no": "Islamsk", "el": "Ισλαμικά"
-      },
-      "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/icons/islamic.png"
+      "name": "تعليمي",
+      "icon": "school"
     }
   ],
   "apps": [
-    {
+     {
       "id": "noor_al_islam",
       "packageName": "com.noor.islam",
       "categoryId": "islamic",
@@ -287,19 +31,24 @@
       "description": "تطبيق إسلامي شامل يحتوي على المصحف، الأذكار، قصص الأنبياء، و1000 معلومة دينية.",
       "iconUrl": "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/noor_al_islam/icon.png",
       "screenshots": [
-        "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_1.png",
-        "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_2.png",
-        "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_3.png",
-        "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_4.png",
-        "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_5.png",
-        "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_6.png",
-        "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_7.png"
+    "https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_1.png"
+,
+"https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_2.png"
+,
+"https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_3.png"
+,
+"https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_4.png"
+,
+"https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_5.png"
+,
+"https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_6.png"
+,
+"https://raw.githubusercontent.com/darahstore/darah-store-data/refs/heads/main/images/noor_al_islam/screen_7.png"
       ],
-      "videoUrl": "",
       "size": "13 MB",
       "ageRating": "3+",
       "versionCode": 381,
-      "sha256": "",
+      "sha256": "ضع_هنا_بصمة_الملف_إن_أردت",
       "repo": "darahstore/Allah",
       "downloadUrl": "https://github.com/darahstore/darah-store-data/releases/download/v1.0.0/NoorAlIslam-v1.0.0-build381.apk",
       "isPaid": false,
@@ -308,7 +57,7 @@
     {
       "id": "abqari",
       "packageName": "com.darah.abqari",
-      "categoryId": "puzzle",
+      "categoryId": "games",
       "isGame": true,
       "name": "تحدي العباقرة",
       "description": "لعبة أسئلة وثقافة عامة تختبر معلوماتك وتتحدى أصدقاءك.",
@@ -317,7 +66,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/abqari/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/abqari/shot2.png"
       ],
-      "videoUrl": "",
       "size": "15 MB",
       "ageRating": "3+",
       "versionCode": 1,
@@ -330,7 +78,7 @@
     {
       "id": "darah_widgets",
       "packageName": "com.darah.widgets",
-      "categoryId": "personalization",
+      "categoryId": "tools",
       "isGame": false,
       "name": "Darah Widgets",
       "description": "أدوات متنوعة للشاشة الرئيسية بتصميم أنيق.",
@@ -339,7 +87,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/darah_widgets/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/darah_widgets/shot2.png"
       ],
-      "videoUrl": "",
       "size": "8.6 MB",
       "ageRating": "3+",
       "versionCode": 2,
@@ -356,7 +103,7 @@
     {
       "id": "demo_puzzle",
       "packageName": "com.darah.demo1",
-      "categoryId": "puzzle",
+      "categoryId": "games",
       "isGame": true,
       "name": "لعبة الألغاز (تجريبي)",
       "description": "لعبة ألغاز ذكية لتنشيط العقل.",
@@ -365,7 +112,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_puzzle/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_puzzle/shot2.png"
       ],
-      "videoUrl": "",
       "size": "22 MB",
       "ageRating": "3+",
       "versionCode": 1,
@@ -378,7 +124,7 @@
     {
       "id": "demo_racing",
       "packageName": "com.darah.demo2",
-      "categoryId": "racing",
+      "categoryId": "games",
       "isGame": true,
       "name": "سباق السرعة (تجريبي)",
       "description": "سباق سيارات مثير بمراحل متعددة.",
@@ -387,7 +133,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_racing/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_racing/shot2.png"
       ],
-      "videoUrl": "",
       "size": "48 MB",
       "ageRating": "7+",
       "versionCode": 1,
@@ -400,7 +145,7 @@
     {
       "id": "demo_adventure",
       "packageName": "com.darah.demo3",
-      "categoryId": "adventure",
+      "categoryId": "games",
       "isGame": true,
       "name": "مغامرة الكنز (تجريبي)",
       "description": "لعبة مغامرات مدفوعة بقصة مشوقة.",
@@ -409,7 +154,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_adventure/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_adventure/shot2.png"
       ],
-      "videoUrl": "",
       "size": "120 MB",
       "ageRating": "12+",
       "versionCode": 3,
@@ -425,7 +169,7 @@
     {
       "id": "demo_cards",
       "packageName": "com.darah.demo4",
-      "categoryId": "card",
+      "categoryId": "games",
       "isGame": true,
       "name": "ورق الشدة (تجريبي)",
       "description": "العب الورق مع الأصدقاء أو ضد الجهاز.",
@@ -434,7 +178,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_cards/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_cards/shot2.png"
       ],
-      "videoUrl": "",
       "size": "18 MB",
       "ageRating": "3+",
       "versionCode": 2,
@@ -447,7 +190,7 @@
     {
       "id": "demo_notes",
       "packageName": "com.darah.demo5",
-      "categoryId": "productivity",
+      "categoryId": "tools",
       "isGame": false,
       "name": "المفكرة الذكية (تجريبي)",
       "description": "دوّن ملاحظاتك بسهولة.",
@@ -456,7 +199,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_notes/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_notes/shot2.png"
       ],
-      "videoUrl": "",
       "size": "6 MB",
       "ageRating": "3+",
       "versionCode": 4,
@@ -469,7 +211,7 @@
     {
       "id": "demo_calc",
       "packageName": "com.darah.demo6",
-      "categoryId": "productivity",
+      "categoryId": "tools",
       "isGame": false,
       "name": "الحاسبة المتقدمة (تجريبي)",
       "description": "حاسبة علمية مدفوعة، تخفيضها منتهٍ لاختبار انتهاء المؤقت.",
@@ -478,7 +220,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_calc/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_calc/shot2.png"
       ],
-      "videoUrl": "",
       "size": "5 MB",
       "ageRating": "3+",
       "versionCode": 1,
@@ -495,7 +236,7 @@
     {
       "id": "demo_photo",
       "packageName": "com.darah.demo7",
-      "categoryId": "photography",
+      "categoryId": "tools",
       "isGame": false,
       "name": "محرر الصور (تجريبي)",
       "description": "محرر صور مدفوع بتخفيض جارٍ.",
@@ -504,7 +245,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_photo/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_photo/shot2.png"
       ],
-      "videoUrl": "",
       "size": "35 MB",
       "ageRating": "3+",
       "versionCode": 5,
@@ -521,7 +261,7 @@
     {
       "id": "demo_chat",
       "packageName": "com.darah.demo8",
-      "categoryId": "communication",
+      "categoryId": "social",
       "isGame": false,
       "name": "دردشة (تجريبي)",
       "description": "تطبيق محادثة بسيط.",
@@ -530,7 +270,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_chat/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_chat/shot2.png"
       ],
-      "videoUrl": "",
       "size": "25 MB",
       "ageRating": "12+",
       "versionCode": 2,
@@ -552,7 +291,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_share/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_share/shot2.png"
       ],
-      "videoUrl": "",
       "size": "30 MB",
       "ageRating": "16+",
       "versionCode": 1,
@@ -574,7 +312,6 @@
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_learn/shot1.png",
         "https://raw.githubusercontent.com/darahstore/darah-store-data/main/images/demo_learn/shot2.png"
       ],
-      "videoUrl": "",
       "size": "40 MB",
       "ageRating": "3+",
       "versionCode": 3,
